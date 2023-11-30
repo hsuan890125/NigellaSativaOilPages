@@ -1,0 +1,26 @@
+.navLink {
+    &:hover {
+        color: white !important;
+        background-color: #194556;
+    }
+}
+
+.nowPage {
+    color: white !important;
+    background-color: #194556;
+}
+
+@media(max-width: 992px){ 
+    .navLink {
+        &:hover{
+            color: #194556 !important;
+            background-color: transparent;
+            border-bottom: #194556 solid 2px;
+        }
+    }
+    .nowPage {
+        color: #194556 !important;
+        background-color: transparent;
+        border-bottom: #194556 solid 2px;
+    }
+}

@@ -1,0 +1,9 @@
+.table {
+    table-layout: fixed;
+}
+
+@media (max-width: 576px) {
+    .table {
+        table-layout: auto;
+    }
+}

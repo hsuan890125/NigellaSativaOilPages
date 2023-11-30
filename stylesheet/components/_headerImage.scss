@@ -1,0 +1,13 @@
+.headerImage {
+    height: 631px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bannerLink {
+    &:hover {
+        color: $info !important;
+        border-bottom: $info solid 1px !important;
+    }
+}
