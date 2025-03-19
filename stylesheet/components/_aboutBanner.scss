@@ -1,6 +1,16 @@
+.aboutHeaderContainer {
+  height: 100vh;
+  position: relative; 
+}
+
 .aboutBanner {
-    height: 631px;
-    background-image: url(../img/about_banner.jpg);
-    background-size: cover;
-    background-position: 70% center;
+  position: absolute;
+  background: url(../img/about_banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: 70% center;
+
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
