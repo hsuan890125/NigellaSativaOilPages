@@ -1,13 +1,23 @@
+.headerContainer {
+  height: 100vh;
+  position: relative;
+}
+
 .headerImage {
-    height: 631px;
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center center;
+  position: absolute;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  top:0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .bannerLink {
-    &:hover {
-        color: $info !important;
-        border-bottom: $info solid 1px !important;
-    }
+  &:hover {
+    color: $info !important;
+    border-bottom: $info solid 1px !important;
+  }
 }

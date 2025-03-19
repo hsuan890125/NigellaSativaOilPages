@@ -12816,11 +12816,20 @@ textarea.form-control-lg {
     border-bottom: #194556 solid 2px;
   }
 }
+.headerContainer {
+  height: 100vh;
+  position: relative;
+}
+
 .headerImage {
-  height: 631px;
-  background-image: url(../img/banner.jpg);
+  position: absolute;
+  background: url(../img/banner.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .bannerLink:hover {
