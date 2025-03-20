@@ -12887,4 +12887,8 @@ textarea.form-control-lg {
 .fadeIn {
   opacity: 1;
   transform: translateY(0);
+}
+
+html, body {
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */
